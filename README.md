@@ -28,13 +28,14 @@
 ### 车牌检测效果
 
 ### Web 界面
-<img width="1892" height="1772" alt="image" src="https://github.com/user-attachments/assets/b733b3c9-6457-4801-8803-11a25a16d173" />
+<img width="1919" height="957" alt="image" src="https://github.com/user-attachments/assets/1876458f-a9c0-4b3e-a24e-1bbde9780672" />
+
 
 
 ## 🚀 快速开始
 打开两个终端分别运行:
- uvicorn backend:app --reload
- streamlit run frontend.py 
+uvicorn backend:app --reload
+streamlit run frontend.py 
 
 ### 环境要求
 - Python 3.12
