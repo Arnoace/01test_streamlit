@@ -1,0 +1,20 @@
+# 忽略所有虚拟环境文件夹（根据你实际的名字改，比如你的叫 test01）
+test01/
+.venv/
+venv/
+ENV/
+
+# 忽略 Python 缓存
+__pycache__/
+*.pyc
+
+# 忽略 YOLO 训练生成的庞大 runs 文件夹
+runs/
+
+# 忽略大模型权重文件（防止超过100MB被GitHub拒绝）
+*.pt
+*.pth
+*.onnx
+
+# 忽略数据集（如果里面有几万张图片）
+datasets/
