@@ -24,18 +24,20 @@
 
 ## 📸 效果展示
 
+
 ### 车牌检测效果
-![车牌检测示例](https://via.placeholder.com/800x400?text=License+Plate+Detection+Demo)
 
 ### Web 界面
-![Web界面](https://via.placeholder.com/800x400?text=Streamlit+Web+Interface)
+<img width="1892" height="1772" alt="image" src="https://github.com/user-attachments/assets/b733b3c9-6457-4801-8803-11a25a16d173" />
 
-> 💡 *注：请将上面的图片链接替换为你的实际截图*
 
 ## 🚀 快速开始
+打开两个终端分别运行:
+ uvicorn backend:app --reload
+ streamlit run frontend.py 
 
 ### 环境要求
-- Python 3.8+
+- Python 3.12
 - pip 包管理器
 
 ### 安装步骤
